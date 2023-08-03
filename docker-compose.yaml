@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  app:
+    container_name: verx_server
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home/node/app
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1"
+    depends_on:
+      - db
+  
+  db:
+    container_name: verx_db
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: $DB_DATABASE
+      POSTGRES_USER: $DB_USER
+      POSTGRES_PASSWORD: $DB_PASSWORD
+
+networks:
+  my-network:
+    external: true
