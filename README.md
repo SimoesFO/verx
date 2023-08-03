@@ -3,7 +3,7 @@
 Este projeto foi criado por Felipe O. Simões, como parte do processo seletivo da Verx Tecnologia e Inovação. Trata-se de um sistema back-end com o objetivo de fornecer uma api para que possa ser realizado o cadastro, exclusão, atualização e busca de diversos produtores rurais, cada produtor pode ter diversos tipos de culturas em sua propriedade.
 
 <div align='center'>
- <img src='' width='500px'  /><br />
+ <img src='https://user-images.githubusercontent.com/6942893/258206604-b694c3df-1120-43f6-9745-4c5f49881a20.png' width='500px'  /><br />
  <i>Home</i><br /><br />
 </div>
 
