@@ -1,73 +1,36 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Verx - Avaliação Técnica para Desenvolvedor Back-End
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto foi criado por Felipe O. Simões, como parte do processo seletivo da Verx Tecnologia e Inovação. Trata-se de um sistema back-end com o objetivo de fornecer uma api para que possa ser realizado o cadastro, exclusão, atualização e busca de diversos produtores rurais, cada produtor pode ter diversos tipos de culturas em sua propriedade.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<div align='center'>
+ <img src='' width='500px'  /><br />
+ <i>Home</i><br /><br />
+</div>
 
-## Description
+## Tecnologias Utilizadas
+- API Rest
+- Nodejs / Nestjs
+- Typescript
+- Prisma ORM
+- Class Validator
+- Postgres
+- Docker
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Como Utilizar
+Como a vaga pretendida é de back-end, foi solicitado apenas a construção das api, por isso não consta o front-end da aplicação. Ela está configurada para rodar com [Docker](https://docs.docker.com/) através do [Docker Compose](https://docs.docker.com/compose/).
 
-## Installation
+Então para executar o projeto basta entrar na pasta do projeto e executar o comando abaixo:
 
 ```bash
-$ npm install
+# Comando para executar o projeto
+$ docker compose up
 ```
 
-## Running the app
+Com isso os containers necessários para a aplicação já devem estar funcionando.
 
-```bash
-# development
-$ npm run start
+O projeto está configurado para rodar em [http://localhost:3000](http://localhost:3000)
 
-# watch mode
-$ npm run start:dev
+A documentação da API se encontra em [http://localhost:3000/api](http://localhost:3000/api)
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Dúvidas?
+Caso surjam dúvidas ou tenha algum problema basta entrar em contato, que terei prazer em ajudar.
